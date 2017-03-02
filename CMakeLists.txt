@@ -1,6 +1,7 @@
 project(blockChol)
 cmake_minimum_required( VERSION 2.8 )
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} --std=gnu++11)
+set(CMAKE_MODULE_PATH ~/Documenti/4_TESI/blockChol/cmake_modules)
 
 #find macros and libraries
 find_package(Eigen3 REQUIRED
