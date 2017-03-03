@@ -14,7 +14,7 @@ include_directories(include
 
 #c++ executable
 set(SRCS 
-	src/test_blockChol.cpp)
+	src/test_blockChol.cpp src/SparseMatrix.cpp)
 add_executable(blockChol_main_app ${SRCS})
 
 # Specify libraries to link a library or executable target against

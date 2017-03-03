@@ -7,7 +7,13 @@
 #include <iostream>
 #include <Eigen/Core>
 
+#include "SparseMatrix.h"
+
+SparseMatrix* s_Matrix;
+
+
 int main(int argc, char **argv) {
-	Eigen::Vector3f m;
-	return 0;
+	s_Matrix = new SparseMatrix(36, 36);
+
+	s_Matrix->initializeMatrix(4);
 }
